@@ -56,7 +56,7 @@ class calculate implements Runnable {
         System.out.println("\n");
         mxm.multiplication();
         try {
-            Thread.sleep(1);
+            Thread.sleep(1000);
         }
         catch(InterruptedException e) {}
         System.out.println("\nExecution Time: " + mxm.getExecutionTime() + "ns");
